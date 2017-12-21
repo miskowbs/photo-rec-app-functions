@@ -1,0 +1,49 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   '@firebase-admin' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @firebase-admin
+8 silly fetchOtherPackageData @firebase-admin
+9 silly cache add args [ '@firebase-admin', null ]
+10 verbose cache add spec @firebase-admin
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: '@firebase-admin',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: '@firebase-admin',
+11 silly cache add   spec: 'F:\\schoolwork\\ComputerScience\\CSSE483\\PhotoRecAppFuncts\\functions\\@firebase-admin',
+11 silly cache add   type: 'local' }
+12 error addLocal Could not install F:\schoolwork\ComputerScience\CSSE483\PhotoRecAppFuncts\functions\@firebase-admin
+13 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'F:\schoolwork\ComputerScience\CSSE483\PhotoRecAppFuncts\functions\@firebase-admin'
+13 silly fetchPackageMetaData  error for @firebase-admin { Error: ENOENT: no such file or directory, open 'F:\schoolwork\ComputerScience\CSSE483\PhotoRecAppFuncts\functions\@firebase-admin'
+13 silly fetchPackageMetaData   errno: -4058,
+13 silly fetchPackageMetaData   code: 'ENOENT',
+13 silly fetchPackageMetaData   syscall: 'open',
+13 silly fetchPackageMetaData   path: 'F:\\schoolwork\\ComputerScience\\CSSE483\\PhotoRecAppFuncts\\functions\\@firebase-admin' }
+14 silly rollbackFailedOptional Starting
+15 silly rollbackFailedOptional Finishing
+16 silly runTopLevelLifecycles Finishing
+17 silly install printInstalled
+18 verbose stack Error: ENOENT: no such file or directory, open 'F:\schoolwork\ComputerScience\CSSE483\PhotoRecAppFuncts\functions\@firebase-admin'
+19 verbose cwd F:\schoolwork\ComputerScience\CSSE483\PhotoRecAppFuncts\functions
+20 error Windows_NT 6.1.7601
+21 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "@firebase-admin"
+22 error node v7.7.1
+23 error npm  v4.1.2
+24 error path F:\schoolwork\ComputerScience\CSSE483\PhotoRecAppFuncts\functions\@firebase-admin
+25 error code ENOENT
+26 error errno -4058
+27 error syscall open
+28 error enoent ENOENT: no such file or directory, open 'F:\schoolwork\ComputerScience\CSSE483\PhotoRecAppFuncts\functions\@firebase-admin'
+29 error enoent ENOENT: no such file or directory, open 'F:\schoolwork\ComputerScience\CSSE483\PhotoRecAppFuncts\functions\@firebase-admin'
+29 error enoent This is most likely not a problem with npm itself
+29 error enoent and is related to npm not being able to find a file.
+30 verbose exit [ -4058, true ]
