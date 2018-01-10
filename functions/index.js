@@ -21,9 +21,9 @@ exports.annotateImage = functions.database.ref('/searches/{searchId}/url').onCre
             console.log(label.description);
             event.data.ref.parent.child('tags').push().set(label.description)
         });
-        return labels;
     })
     .catch(err => {
         console.error('ERROR:', err);
     });
+    return 1;
 });
